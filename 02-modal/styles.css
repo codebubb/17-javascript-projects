@@ -1,9 +1,15 @@
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0;
     margin: 0;
     background-image: url(background.jpg);
     background-size: cover;
+    background-repeat: no-repeat
 }
 
 button {
