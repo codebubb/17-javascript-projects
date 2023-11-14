@@ -1,0 +1,39 @@
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    border-bottom: 1px solid gray;
+}
+
+nav ul li {
+    padding: .5rem;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav li.active {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
