@@ -1,0 +1,13 @@
+#race {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#race div {
+    text-align: center;
+}
+#race img {
+    width: 200px;
+    display: block;
+}
