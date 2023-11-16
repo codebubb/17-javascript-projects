@@ -9,7 +9,8 @@ body {
     background-color: rgb(129, 129, 180);
     border-radius: 1rem;
     color: white;
-    box-shadow: 0 0 24px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0
+     0 24px 12px rgba(0, 0, 0, 0.3);
 }
 
 #userTable {
@@ -22,4 +23,8 @@ body {
 
 #userTable th {
     text-align: left;
+}
+
+#filterUsers {
+    padding: .5rem 1rem;
 }
