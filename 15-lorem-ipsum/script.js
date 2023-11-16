@@ -12,6 +12,7 @@ const getLoremIpsum = numberOfParagraphs => {
 
 const updateResult = textArray => {
     const resultElement = document.getElementById('result');
+    resultElement.classList.add('show');
     resultElement.innerHTML = '';
     resultElement.innerHTML = textArray
         .map(paragraph => `<p>${paragraph}</p>`)
@@ -20,6 +21,7 @@ const updateResult = textArray => {
 };
 
 const showError = error => {
+    resultElement.classList.add('show');
     const resultElement = document.getElementById('result');
     resultElement.innerHTML = '';
     resultElement.innerHTML = `<p class="error">${error.message}</p>`
