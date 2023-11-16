@@ -1,0 +1,50 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#productSearch {
+    margin: 2rem;
+    background-color:silver;
+    padding: 2rem;
+    box-shadow: 0 0 16px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#searchText {
+    padding: .5rem;
+}
+
+#autoCompleteResults {
+    margin: 1rem 0;
+    width: 100%;
+    border-collapse: collapse;
+    display: none;
+}
+
+#autoCompleteResults.show {
+    display: block;
+}
+
+#autoCompleteResults img {
+    width: 50px;
+    height: 100%;
+}
+
+#autoCompleteResults th {
+    text-align: left;
+}
+
+#autoCompleteResults td {
+    font-size: .75rem;
+}
+#autoCompleteResults tbody tr {
+    cursor: pointer;
+    width: 100%;
+}
+
+#autoCompleteResults tbody tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+#autoCompleteResults tbody tr:hover {
+    background-color: lightblue;
+}
