@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
+table, th {
+    text-align: left;
+    border: 1px solid black;
+}
+
+th > span {
+    margin: .25rem;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#shoppingList {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+#shoppingListItems {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#shoppingListItems li {
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#shoppingListItems li:nth-child(even) {
+    background-color: aliceblue;
+}
+
+.addItemSection {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.addItemSection input, .addItemSection button {
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+.addItemSection button {
+    background-color: orangered;
+    color: white;
+    border: 0;
+}
+
+.remove-item {
+    font-size: .5rem;
+    cursor: pointer;
+    color: blue;
+}
