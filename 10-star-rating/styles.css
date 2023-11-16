@@ -13,10 +13,12 @@ body {
 
 .empty::before {
     content: '☆';
+    cursor: pointer;
 }
 
 .filled::before {
     content: '★';
+    cursor: pointer;
 }
 
 /*  ☆★ */
